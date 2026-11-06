@@ -1,0 +1,11 @@
+{
+  "release": "EduWeave v0.3",
+  "artifacts": [
+    {
+      "name": "<artifact name>",
+      "adopted_license": "<short license identifier>",
+      "decision": "distribute | blocked",
+      "basis": "<one-line justification>"
+    }
+  ]
+}
