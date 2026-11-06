@@ -1,0 +1,23 @@
+{
+  "release": "EduWeave v0.3",
+  "artifacts": [
+    {
+      "name": "EduWeave-Raw",
+      "adopted_license": "cc-by-4.0",
+      "decision": "distribute",
+      "basis": "Prompt field repackaged from nvidia/HelpSteer2, which is released under CC-BY-4.0 and permits reuse, modification, redistribution and commercial use with attribution."
+    },
+    {
+      "name": "EduWeave-Synth",
+      "adopted_license": "cc-by-4.0",
+      "decision": "distribute",
+      "basis": "Prompts derive from nvidia/HelpSteer2 (CC-BY-4.0); kakaocorp/kanana-2-3b-instruct's Kanana Open License disclaims rights in its Outputs (section 5), so the generator does not bind the synthesized responses and CC-BY-4.0 governs the released content."
+    },
+    {
+      "name": "EduWeave-Study",
+      "adopted_license": "cc-by-nc-4.0",
+      "decision": "blocked",
+      "basis": "Derived from tatsu-lab/alpaca, whose data is licensed CC-BY-NC-4.0 (non-commercial, research-only use), a use-based restriction that prevents public catalog distribution."
+    }
+  ]
+}
